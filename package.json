@@ -1,0 +1,19 @@
+{
+  "name": "md-viewer",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prepare:public": "node scripts/prepare-public.mjs && node scripts/bundle-app.mjs",
+    "dev": "tauri dev",
+    "build": "tauri build"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2",
+    "esbuild": "^0.25"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2",
+    "markdown-it": "^14",
+    "highlight.js": "^11"
+  }
+}

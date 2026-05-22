@@ -1,0 +1,4 @@
+[[permission]]
+identifier = "markdown-viewer"
+description = "Allows reading markdown files opened from the system"
+commands.allow = ["opened_urls", "read_markdown_file"]

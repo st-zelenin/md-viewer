@@ -1,0 +1,6 @@
+node_modules/
+public/vendor/
+public/app.js
+dist/
+src-tauri/target/
+.DS_Store
